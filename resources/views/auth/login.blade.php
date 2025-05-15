@@ -9,6 +9,11 @@
 @endsection
 @section('content')
 
+<div class="alert alert-info">
+    <strong>Email:</strong> demo@lenden.com <br>
+    <strong>Password:</strong> 12345678
+</div>
+
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
